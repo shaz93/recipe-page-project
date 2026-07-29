@@ -7,6 +7,16 @@ body{
     margin:0 auto;
     padding: 0 20px;
 }
+section{
+    padding: 100px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/image1.jpg');
     background-repeat: no-repeat;
@@ -42,6 +52,41 @@ header a{
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
+footer{
+    background-image:linear-gradient(rgba(43, 30, 49, 0.9), rgba(34, 27, 43, 0.9)), url('./images/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+footer h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ff4b2b;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+} 
+footer li{
+    list-style-type: style underline;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
 @media (max-width800px){
     header{
         padding: 150px 0;
