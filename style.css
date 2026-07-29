@@ -108,14 +108,14 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #e74e11;
+  color: white;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: white;
+  background: #e74e11;
 }
 
 main {
@@ -182,8 +182,7 @@ footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color:white;
-  background-color: #e74e11;
+  color:#e74e11;
 }
 
 footer p {
