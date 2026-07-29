@@ -57,7 +57,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #e74e11;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/lisbon.png");
+    url("../images/image1.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -108,7 +108,7 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #272044;
+  color: #e74e11;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
@@ -172,7 +172,7 @@ footer {
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url("../images/lisbon-footer.png");
+    url("../images/image2.png");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,6 +182,7 @@ footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
+  color:#e74e11
 }
 
 footer p {
