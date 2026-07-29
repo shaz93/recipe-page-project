@@ -1,78 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple Meals, Incredible Taste</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/1a7030daed.js" crossorigin="anonymous"></script>
-    </head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Welcome to Lisbon</title>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h3>.LETS GET COOKING!.</h3>
-            <h1>Simple Meals, Incredible Taste</h1>
-            <h2>Discover easy-to-follow recipes made with everyday ingredients</h2>
-            <a href="#recipes">View Recipes</a>
-        </header>
+      <header>
+        <h3>.TRAVEL.</h3>
+        <h1>Welcome to Lisbon</h1>
+        <h2>Capital city of Portugal</h2>
+        <a href="#more">Learn more</a>
+      </header>
+      <main>
+        <section class="grid grid-2-columns">
+          <div>
+            <img
+              src="images/building.png"
+              alt="Lisbon Building"
+              class="img-responsive"
+            />
+          </div>
+          <div>
+            <h2>Why Lisbon?</h2>
+            <h3>Lisbon, the city of seven hills</h3>
+            <p>
+              The legend has it that Lisbon was named Olissipo by the Romans,
+              for its resemblance to the Roman capital. Just like Rome, Lisbon
+              began its life as a humble settlement nestled among seven hills.
+              However, it wasn't until the 17th century, in the writing of Frey
+              Nicolao d'Oliveira, that Lisbon came to be called 'a cidade das
+              sete colinas' - the city of seven hills.
+            </p>
+            <p>
+              You can still see traces of ancient Lisbon today. Beyond the array
+              of shops with international brands, peaceful streetside cafes
+              selling the iconic pastel de nata and world class restaurants with
+              a variety of global cuisine, you can still wander the seven hills
+              and see the city from above, taking in the rolling terracotta
+              rooftops, the whitewashed walls and on the horizon, the soft blue
+              sea.
+            </p>
+          </div>
+        </section>
+        <section class="secondary">
+          <h2 class="text-center">CAFÉS</h2>
+          <h3 class="text-center">My favorite cafés in Lisbon</h3>
 
-        <main>
-            <section class="grid grid-2-columns">
-                <div><img src="./images/image3.jpg" alt="Chicken" class="img-responsive" /></div>
-                <div>
-                    <h2 class="section-label">30 MINUTES CHICKEN DINNERS</h2>
-                    <h3>Why Chicken is Your Best Weeknight Ally</h3>
-                    <p>Chicken is a versatile and affordable protein that can be cooked in a variety of ways, making it perfect for quick weeknight dinners. From grilled chicken breasts to one-pan roasted chicken thighs, there are countless recipes that can be prepared in 30 minutes or less.</p>
-                </div>
-            </section>
+          <div class="grid grid-3-columns">
+            <div class="card">
+              <div class="card-header">
+                <img
+                  src="images/cafes/janis.png"
+                  alt=""
+                  class="img-responsive"
+                />
+              </div>
 
-            <section class="secondary" id="recipes">
-                <h2 class="text-center section-label">RECIPES</h2>
-                <h3 class="text-center">Quick & Easy Chicken Recipes</h3>
-                <div class="grid grid-3-columns">
-                    <div class="card">
-                        <img src="./images/image6.jpg" alt="Chicken Parmesan" class="img-responsive" />
-                        <h4>Chicken Parmesan</h4>
-                        <p>Prep: 10m | Cook: 20m</p>
-                        <a href="#" class="btn">View Recipe</a>
-                    </div>
-                    <div class="card">
-                        <img src="./images/image4.jpg" alt="Chili Lime Chicken" class="img-responsive" />
-                        <h4>Chili Lime Chicken</h4>
-                        <p>Prep: 5m | Cook: 15m</p>
-                        <a href="#" class="btn">View Recipe</a>
-                    </div>
-                    <div class="card">
-                        <img src="./images/image5.jpg" alt="Garlic Chicken" class="img-responsive" />
-                        <h4>Garlic Chicken</h4>
-                        <p>Prep: 5m | Cook: 15m</p>
-                        <h5>Ingredients:</h5>
-                        <ul>
-                            <li>4 boneless, skinless chicken breasts</li>
-                            <li>2 tablespoons olive oil</li>
-                            <li>4 cloves garlic, minced</li>
-                            <li>1 teaspoon dried thyme</li>
-                            <li>Salt and pepper to taste</li>
-                            <li>1 cup chicken broth</li>
-                            <li>2 tablespoons lemon juice</li>
+              <div class="card-body">
+                <h4>Café Janis</h4>
+                <p>
+                  A lively all-day café with an outdoor terrace that serves
+                  everything you could want from breakfast and brunch to evening
+                  cocktails.
+                </p>
+                <h5>Address:</h5>
+                <p>1A Rua Moeda</p>
+                <h5>What I like about it</h5>
+                <p>
+                  This is one of the best brunch spots in Lisbon but if you go
+                  at any time of day there will be something delicious on the
+                  menu!
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://goo.gl/maps/15LZ4DUTtJWjDLMQ8"
+                  class="btn"
+                  target="_blank"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img
+                  src="images/cafes/seagull.png"
+                  alt=""
+                  class="img-responsive"
+                />
+              </div>
 
-                        </ul>
-                        <a href="#" class="btn">View Recipe</a>
-                    </div>
-                </div>
-            </section>
-        </main>
+              <div class="card-body">
+                <h4>Seagull Method Café</h4>
+                <p>
+                  Everyone's favorite neighborhood cafe with a variety of
+                  breakfast and brunch options.
+                </p>
+                <h5>Address:</h5>
+                <p>Rua da Palmeira 23</p>
+                <h5>What I like about it</h5>
+                <p>
+                  It's tiny! Not always easy to get a seat but it's such a cozy
+                  little place, the food is always tasty and the staff are so
+                  friendly.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://g.page/seagullmethod?share"
+                  class="btn"
+                  target="_blank"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img
+                  src="images/cafes/janis.png"
+                  alt=""
+                  class="img-responsive"
+                />
+              </div>
 
-        <footer>
-            <section class="grid grid-footer">
-                <div><h3><i class="fa-solid fa-address-book"></i> Contact Me</h3><p>Email: sheron.93@yahoo.com<br>Phone: +27633523844</p></div>
-                <div><h3><i class="fa-solid fa-binoculars"></i> Explore</h3><ul><li><a href="#">All Recipes</a></li><li><a href="#">Food Network</a></li></ul></div>
-                <div><h3><i class="fa-solid fa-user"></i> About Me</h3><p>My name is Sheron Ndimande, and I turn simple ingredients into unforgettable meals. Cooking is more than just a hobby for me it's a creative outlet where I get to experiment, unleash my creativity, and share my love for food."</p></div>
-            </section>
-        </footer>
+              <div class="card-body">
+                <h4>Heim Café</h4>
+                <p>
+                  The sister cafe of Seagull Method, this warm cozy cafe will
+                  take you from breakfast through to dinner with excellent
+                  coffee and locally-sourced wines.
+                </p>
+                <h5>Address:</h5>
+                <p>Rua Santos-O-Velho 2 e 4</p>
+                <h5>What I like about it</h5>
+                <p>
+                  Just like Seagull Method, the owners are incredibly friendly
+                  and chatty. It has the best coffee in Lisbon!
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://goo.gl/maps/xHrNaj1DgirWNUUG6"
+                  class="btn"
+                  target="_blank"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section class="grid grid-3-columns-with-first-narrow">
+          <div>
+            <h3>More about Lisbon</h3>
+
+            <ul>
+              <li>
+                <a
+                  href="https://www.aeroportolisboa.pt/en/lis/home"
+                  target="_blank"
+                >
+                  Lisbon Airport website
+                </a>
+              </li>
+              <li>
+                <a href="https://goo.gl/maps/8ZwWBBJVZduUNuXNA" target="_blank">
+                  Map of Lisbon
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.metrolisboa.pt/en/travel/diagrams-and-maps/"
+                  target="_blank"
+                >
+                  Public transport map
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>About me</h3>
+            <p>
+              Hi! My name is Matt and I've been living in Lisbon for several
+              years. I'm very fond of the city. I created this page as part of a
+              project for SheCodes Responsive to develop my coding skills.
+            </p>
+          </div>
+          <div>
+            <h3>About this website</h3>
+            <p>
+              I created this page as part of a project for SheCodes Responsive
+              to develop my coding skills.
+              <br />
+              This project was coded by Matt Delac and is
+              <a
+                href="https://github.com/matthieua/lisbon-travel-project"
+                target="_blank"
+              >
+                open sourced</a
+              >
+            </p>
+          </div>
+        </section>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
