@@ -3,15 +3,17 @@ body{
     background-color: #193141;
 }
 .container{
-    max-width: 1400px;
+    max-width: 100%;
     margin:0 auto;
-    padding: 0 20px;
+    padding: 100px;
     
 }
 section{
-    max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
+}
+section.secondary{
+    background-color: #f8f8f8;
 }
 .grid{
     display: grid;
@@ -25,6 +27,28 @@ section{
 }
 .image3{
     max-width: 100%;
+}
+.text-align{
+    text-align: center;
+}
+.button{
+    display:block;
+    background-color: #ff4b2b;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14x;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 21px;
+    
+}
+.card{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/image1.jpg');
@@ -86,6 +110,20 @@ main h3{
     font-weight: 700;
     font-size: 30px;
     line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
+main h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+}
+main h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
     color: #272044;
     margin: 0;
 }
