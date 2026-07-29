@@ -83,7 +83,7 @@ footer ul{
 }
 footer a{
     color: white;
-    text-decoration: none;
+    text-decoration:underline;
     transition: all 0.3s ease-in-out;
 }
 
