@@ -33,6 +33,7 @@ header{
     color: white;
     text-align: center;
     padding: 260px 0;
+    box-shadow: 2px 2px 10px #f0ebebfd;
 }
 header h1{
     font-weight: 700;
