@@ -213,6 +213,9 @@ footer a {
   color: white;
   opacity: 0.7;
 }
+section.videos h2,h3{
+  text-align: center;
+}
 
 @media (max-width: 960px) {
   header {
